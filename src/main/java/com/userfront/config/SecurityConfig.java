@@ -2,6 +2,7 @@ package com.userfront.config;
 
 import java.security.SecureRandom;
 
+import com.userfront.service.UserSeviceImpl.UserSecurityService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
